@@ -88,3 +88,6 @@ Tarefas descritivas: não tentam olhar para o futuro e sim para o passado, colhe
 COLHER INFORMAÇÕES E CORRELAÇÕES
 
 Avaliação de Modelos: 
+
+Validação Cruzada: Dados são dividos em conjuntos de treinamento e testes múltiplos e o modelo é treinado testado várias
+vzes com diferentes divisões dos dados fornecidos
