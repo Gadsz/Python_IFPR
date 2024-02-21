@@ -1,0 +1,90 @@
+AULA 20 DE FEV DE 2024
+
+Introdução a Python, aula majoritamente teórica
+
+>Descoberta da base de dados (KDD)
+darlonv.github.io/materiais/docs/CD/intro/kdd
+
+Processos: Seleção > Pré-PRocessamento > Transformação > Mineração de Dados > Avaliação.
+
+Seleção: Nem tudo na base de dados é útil a ser analisado, depende do contexto, precisa conhecer
+a base de dados, origem dos dados (é vídeo, tabela, gŕafico)
+o que são os dados é importante pra essa primeira parte, conceito de banco de dados.
+
+Variáveis e registros (atributos e instâncias)
+coluna = variaveis
+cada valor em uma linha adicionado são os registros
+
+PRÉ-PROCESSAMENTO:
+
+garantir que os dados estejam em formato adequado para o próxima parte
+
+LIMPEZA DE DADOS:
+
+Darlon 80% do tempo dedicado, principalmente se a origem dos dados vem de origem humana, limpeza e
+remoção deoutliers e correção de erros de digitação, ruídos e incosistências.
+
+INTEGRAÇÃO DE DADOS
+
+Ainda no pré processamento, se nós temos dados de diversas fontes do origem é necessário verificar se as
+bases e variáveis são compatívis, como por exemplo em float ou int, a interação da base dados
+
+TRATAMENTO DE VALORES AUSENTES
+
+São comuns em base de dados no mund oreal, como por exemplo quando um eusuário não preenche todos os dados de um formulário
+
+========
+
+ABORDAGEM DE TRATAMENTO DE DADOS FALTANTES:
+
+>Remoção de dados
+>Preenchimento de valores ausentes
+           |
+           ----> Preenchimento com a Média/Mediana/Moda
+        
+>Preenchimento por Imputação
+>Preenchimento por Valor Fixo
+>Imputação Multivariada
+>Modelagem de Aprendizado de Máquina
+
+TRANSFORMAÇÃO
+
+Confirmar os dados para a fase de mineração de dados
+
+NORMALIZAÇÃO
+
+PADRONIZAÇÃO
+
+DISCRETIZAÇÃO DE DADOS
+
+Discretizar é transformar em inteiro, por xemplo, tempo mede em minutos ou segundos, deixando somente
+em minutos nesse exemplo, ou transformar um valor quebrado em um valor inteiro.
+
+REDUÇÃO DE DIMENSIONALIDADE
+
+Eliminar variáveis que a gente descobriu que elas não são tão importantes, importantes no sentido de que a redução normalmente é relacionado a análise de componentes principais (PCA)
+ou seja, o quanto uma variável influncia. Como se fosse um filtro de relevância
+aka Sky :D
+
+Codificação de variáveis categóricas
+
+Codificação One-Hot (One-Hot Encoding)
+
+Codificação de Números Inteiros (Integer Encoding)
+
+Codificação de Frequência (Frequency Encoding)
+
+Codificação Ordinal
+
+MINERAÇÃO DE DADOS
+
+Tarefas de mineração de dados
+
+Tarefas preditivas: são tarefas que informam algo, que pode ser previsto, visam prever o futuro, um possível valor futuro
+como por exemplo previsão de dados histórico.
+
+Tarefas descritivas: não tentam olhar para o futuro e sim para o passado, colhendo informações do passado
+
+COLHER INFORMAÇÕES E CORRELAÇÕES
+
+Avaliação de Modelos: 
